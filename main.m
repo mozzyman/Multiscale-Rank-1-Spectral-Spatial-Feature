@@ -3,7 +3,6 @@ clear;
 close all;
 
 addpath('Dataset');
-% addpath('D:\Tezpur University\PhD\Sparse Classification\Feature_Multi');
 
 load Indian_pines_corrected;
 load Indian_pines_gt;
