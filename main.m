@@ -30,7 +30,8 @@ end
 All_data = Data;
 pix_pos = ones([size(All_data,1),size(All_data,2)]);
 
-Multi_scale_Patchsize = [5 7 9 11 13 15 17 19 21 23 25 27]; 
+% Multiscale Patch size of your choice
+Multi_scale_Patchsize = [5 7 9 11 13 15 17 19 21 23 25]; 
 
 scale_num = length(Multi_scale_Patchsize);   
 Multi_scale_PS_H = [];
